@@ -1,0 +1,30 @@
+{
+  "name": "zapapply",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "daily-run": "tsx scripts/daily-run.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "0.39.0",
+    "@supabase/ssr": "0.5.2",
+    "@supabase/supabase-js": "2.47.10",
+    "next": "14.2.35",
+    "pdf-lib": "1.17.1",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "resend": "4.0.1",
+    "zod": "3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.17.10",
+    "@types/react": "18.3.18",
+    "@types/react-dom": "18.3.5",
+    "tsx": "4.19.2",
+    "typescript": "5.7.2"
+  }
+}
